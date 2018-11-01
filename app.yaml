@@ -1,0 +1,9 @@
+# [START gae_python37_cloudsql_config]
+runtime: python37
+
+env_variables:
+  CLOUDSQL_USERNAME: root
+  CLOUDSQL_PASSWORD: symbiosisPass123
+  CLOUDSQL_DATABASE_NAME: symbiodb
+  CLOUDSQL_CONNECTION_NAME: symbiosispage2:us-east4:symbiodb
+# [END gae_python37_cloudsql_config]
